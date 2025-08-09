@@ -466,3 +466,24 @@
   }
 }
 
+/* UpdateArray Component Styles */
+.add-fruit-btn {
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-fruit-btn:hover {
+  background-color: #45a049;
+}
+
+.add-fruit-btn:active {
+  background-color: #3e8e41;
+}
+

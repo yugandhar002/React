@@ -1,5 +1,11 @@
-
-
+// updater function
+// = A function passed as an argument to setState() usually
+// ex. setyear(arrow funciton)
+// Allow for safe updates based on the previous state
+// Used with multiple state updates and asynchronous functions
+// Good practice to use updater functions
+// it allow handle multiple states at onChange ex increment the counter
+// the couner by 2 times
 import React, { useState } from "react";
 
 function Counter(){
@@ -7,7 +13,8 @@ function Counter(){
     
     const [count, setCount] = useState(0);
     const increment = ()=>{
-        setCount(count+1);
+        setCount(c=>c+1);
+        setCount(c=>c+1);  // updater function 
     }
     const decrement=()=>{
         setCount(count-1);

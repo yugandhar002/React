@@ -10,6 +10,8 @@ import Mycomponent from "./Mycomponent.jsx"
 import Counter from "./Counter.jsx"
 import Mycomponent2 from "./Mycomponent2.jsx"
 import ColorPicker from "./ColorPicker.jsx"
+import UpdateOBJECT from "./updateOBJECT.jsx"
+import UpdateArray from "./UpdateArray.jsx"
 
 
 
@@ -32,19 +34,19 @@ function App() {
     ]
   return(
     <>
-      {/* <Header/>
-      <Food/>
-      <Footer/>
-      <Card/>
-      <Card/>
-      <Button/>
-      <Student name="Yugandhar" age={25} isStudent={true}/>
+      {/* <Header/> */}
+      {/* <Food/> */}
+      {/* <Footer/> */}
+      {/* <Card/>
+      <Card/> */}
+      {/* <Button/> */}
+      {/* <Student name="Yugandhar" age={25} isStudent={true}/>
       <Student name="Sharanya" age={20} isStudent={true}/>
       <Student name="Vignesh" age={20} isStudent={false}/>
-      <Student/> */}
+      <Student/>  */}
       {/* <UserGreeting userName="yugandhar" isLoggedIn={true}/> */}
-      {/* <UserGreeting/> */}
-      {/* <List/> */}
+      {/* <UserGreeting/>
+      {/* <List/>
 
        {/* <List items={fruits}  category="Fruites"></List> 
        <List items={vegies}  category="vegitables"></List>  */}
@@ -52,7 +54,9 @@ function App() {
         {/* <Mycomponent/> */}
         {/* <Counter></Counter> */}
         {/* <Mycomponent2/> */}
-        <ColorPicker/>
+        {/* <ColorPicker/> */}
+        {/* <UpdateOBJECT /> */}
+        {/* <UpdateArray/> */}
 
   
       </>
